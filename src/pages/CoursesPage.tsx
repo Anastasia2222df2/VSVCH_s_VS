@@ -39,6 +39,7 @@ export const CoursesPage = ({ courses, setCourses }: CoursesPageProps) => {
   const handleDelete = (id: number) => {
     setCourses(courses.filter((c) => c.id !== id));
   };
+  
 
   // Фильтрация элементов
   const filteredCourses = filter === 'All'
@@ -77,6 +78,10 @@ export const CoursesPage = ({ courses, setCourses }: CoursesPageProps) => {
         <button onClick={() => setFilter('Backend')}>Backend</button>
         <button onClick={() => setFilter('Design')}>Design</button>
       </div>
+      {/* Добавляем информационную плашку */}
+<p style={{ margin: '1rem 0', fontWeight: 'bold' }}>
+  Всего курсов в категории: {filteredCourses.length}
+</p>
 
       {/* Список карт */}
       <div className="card-grid">
