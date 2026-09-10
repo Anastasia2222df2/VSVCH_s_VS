@@ -1,8 +1,10 @@
 export interface CourseItem {
   id: number;
   title: string;
-  description: string;
   category: string;
+  description: string;
+  price: number;
+  rating: number;
 }
 
 export interface AppProps {

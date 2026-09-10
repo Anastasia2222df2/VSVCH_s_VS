@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "React & TypeScript",
+    "category": "Frontend",
+    "description": "Изучение современной фронтенд-разработки на React с типизацией TypeScript.",
+    "price": 15000,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Node.js & Express",
+    "category": "Backend",
+    "description": "Создание REST API и масштабируемых бэкенд-сервисов.",
+    "price": 18000,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design",
+    "category": "Design",
+    "description": "Проектирование интерфейсов, прототипирование в Figma.",
+    "price": 12000,
+    "rating": 5
+  }
+]
