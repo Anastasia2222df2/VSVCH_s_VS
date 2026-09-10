@@ -6,9 +6,9 @@ interface CardProps {
 
 export const Card = ({ item }: CardProps) => {
   return (
-    <div style={{ border: '1px solid #ccc', padding: '1rem', borderRadius: '8px' }}>
+    <div className="card">
       <h3>{item.title}</h3>
-      <p>Категория: {item.category}</p>
+      <p style={{ color: '#007bff', fontWeight: 'bold' }}>{item.category}</p>
       <p>{item.description}</p>
     </div>
   );
