@@ -3,8 +3,8 @@ export interface CourseItem {
   title: string;
   category: string;
   description: string;
-  price: number;
-  rating: number;
+  price?: number;
+  rating?: number;
 }
 
 export interface AppProps {
