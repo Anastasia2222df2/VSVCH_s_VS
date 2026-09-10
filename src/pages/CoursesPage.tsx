@@ -83,6 +83,14 @@ export const CoursesPage = ({ courses, setCourses }: CoursesPageProps) => {
   Всего курсов в категории: {filteredCourses.length}
 </p>
 
+<div className="filter-block">
+  <button onClick={() => setFilter('All')}>Все</button>
+  <button onClick={() => setFilter('Frontend')}>Frontend</button>
+  <button onClick={() => setFilter('Backend')}>Backend</button>
+  <button onClick={() => setFilter('Design')}>Design</button>
+  <button onClick={() => setCourses([])} style={{ backgroundColor: '#ff4d4d', color: 'white' }}>Очистить все</button>
+</div>
+
       {/* Список карт */}
       <div className="card-grid">
         {filteredCourses.map((item) => (
