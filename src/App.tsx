@@ -11,10 +11,12 @@ export function App() {
   const mainTitle = "Курсы по веб-разработке";
   
   const courses: CourseItem[] = [
-    { id: 1, title: "React & TypeScript", category: "Frontend", description: "Основы современной фронтенд-разработки." },
-    { id: 2, title: "Node.js Basics", category: "Backend", description: "Создание серверных приложений на JS." },
-    { id: 3, title: "UI/UX Design", category: "Design", description: "Проектирование пользовательских интерфейсов." }
-  ];
+  { id: 1, title: "React & TypeScript", category: "Frontend", description: "Основы современной фронтенд-разработки." },
+  { id: 2, title: "Node.js Basics", category: "Backend", description: "Создание серверных приложений на JS." },
+  { id: 3, title: "UI/UX Design", category: "Design", description: "Проектирование пользовательских интерфейсов." },
+  { id: 4, title: "Python Data Science", category: "Data", description: "Анализ данных и машинное обучение." },
+  { id: 5, title: "Docker & DevOps", category: "Infrastructure", description: "Контейнеризация и настройка CI/CD." }
+];
 
   return (
     <div className="app-container">
